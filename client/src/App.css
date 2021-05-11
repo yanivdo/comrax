@@ -1,0 +1,51 @@
+.searchWrapper{
+    display:flex;
+    width: 80%;
+    margin: auto;
+}
+
+.searchWrapper .sideBarWrapper{
+    width: 10%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.searchWrapper .sideBarWrapper .sideBarQuery{
+    cursor: pointer;
+}
+.searcBoxhWrapper .searcBox{
+    margin-top: 5px;
+}
+
+.searcBoxhWrapper{
+    margin-top:5px;
+}
+
+.btn{
+    margin: 10px 0px;
+}
+
+.paginationWrapper{
+    margin:0 auto;
+  }
+  
+  .paginationWrapper .pages{
+    display: inline-block;
+    margin: 0px 5px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+  
+  .paginationWrapper .current{
+    padding: 15px;
+  }
+
+  .innerSearch{
+      display: inline-block;
+      background-color:yellow;
+  }
